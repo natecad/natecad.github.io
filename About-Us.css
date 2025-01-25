@@ -1,4 +1,4 @@
-/* General Reset */
+/* General settings */
 * {
     margin: 0;
     padding: 0;
@@ -11,6 +11,10 @@ body {
     color: #fff;
     line-height: 1.6;
 }
+
+
+
+
 
 /* Header */
 header {
@@ -80,6 +84,10 @@ nav ul li a:hover {
     text-shadow: 0 0 10px #39FF14;
 }
 
+
+
+
+
 /* Branch Details */
 .branch-details {
     display: flex;
@@ -107,7 +115,11 @@ nav ul li a:hover {
     margin-bottom: 10px;
 }
 
-/* Summary Table */
+
+
+
+
+/* Table */
 table {
     width: 80%;
     margin: 0 auto 20px;
@@ -129,6 +141,10 @@ tfoot td {
     background-color: #222;
 }
 
+
+
+
+
 /* Footer */
 footer {
     background-color: #111;
@@ -143,7 +159,11 @@ footer p {
     margin-top: 10px;
 }
 
-/* Mobile Styles */
+
+
+
+
+/* Mobile responsive */
 @media (max-width: 768px) {
     .hamburger {
         display: block;

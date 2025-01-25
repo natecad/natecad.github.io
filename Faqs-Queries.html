@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="Faqs-Queries.css" />
   </head>
   <body>
-    <!-- Header -->
+
+
     <header>
       <div class="top-header">
         <div class="logo">
@@ -23,6 +24,7 @@
           <label for="menu-toggle" class="hamburger">&#9776;</label>
         </div>
       </div>
+
       <nav class="nav-menu">
         <ul>
           <li><a href="index.html">Home</a></li>
@@ -35,8 +37,9 @@
         </ul>
       </nav>
     </header>
-
+    
     <main>
+    <!-- FAQ -->
       <section class="faq-section">
         <h2>FAQ's and Queries</h2>
         <div class="faq">
@@ -60,8 +63,9 @@
           </details>
         </div>
       </section>
-
-      <form class="faq-form" action="#" method="POST">
+      
+      <!-- Form -->
+      <form class="faq-form">
         <h2>Have a Question?</h2>
         <label for="name">Your Name:</label>
         <input
@@ -85,14 +89,15 @@
         <textarea
           id="question"
           name="question"
-          rows="5"
           placeholder="Type your question here"
+          rows="5"
           required
         ></textarea>
 
-        <button type="submit" disabled>Submit</button>
+        <button type="submit">Submit</button>
       </form>
     </main>
+
 
     <footer>
       <div class="footer-container">

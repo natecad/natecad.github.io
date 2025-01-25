@@ -1,4 +1,3 @@
-/* General Reset */
 * {
     margin: 0;
     padding: 0;
@@ -11,6 +10,10 @@ body {
     color: #fff;
     line-height: 1.6;
 }
+
+
+
+
 
 /* Header */
 header {
@@ -80,7 +83,11 @@ nav ul li a:hover {
     text-shadow: 0 0 10px #39FF14;
 }
 
-/* FAQ Section */
+
+
+
+
+/* FAQ*/
 .faq-section {
     margin-bottom: 40px;
 }
@@ -147,7 +154,7 @@ nav ul li a:hover {
     background-color: #39FF14;
     color: #111;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     font-weight: bold;
     cursor: pointer;
     transition: background-color 0.3s ease;
@@ -156,6 +163,9 @@ nav ul li a:hover {
 .faq-form button:hover {
     background-color: #28cc10;
 }
+
+
+
 
 
 footer {
@@ -170,6 +180,10 @@ footer p {
     font-size: 12px;
     margin-top: 10px;
 }
+
+
+
+
 
 /* Mobile Styles */
 @media (max-width: 768px) {
