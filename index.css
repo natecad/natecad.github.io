@@ -52,6 +52,10 @@ h1 {
     color: #39FF14;
 }
 
+.menu-toggle {
+    display: none;
+}
+
 .hamburger {
     display: none;
     cursor: pointer;

@@ -7,8 +7,6 @@
     <link rel="stylesheet" href="games.css" />
   </head>
   <body>
-  
-
     <header>
       <div class="top-header">
         <div class="logo">
@@ -17,14 +15,16 @@
             alt="Logo"
           />
         </div>
-        <h1>Emaraki</h1>
+        <h1>Emeraki</h1>
         <div class="header-icons">
           <span>🛒</span>
           <span>👤</span>
+          <!-- Hidden input for menu toggle -->
+          <input type="checkbox" id="menu-toggle" class="menu-toggle" />
           <label for="menu-toggle" class="hamburger">&#9776;</label>
         </div>
       </div>
-      
+
       <nav class="nav-menu">
         <ul>
           <li><a href="index.html">Home</a></li>
@@ -33,113 +33,138 @@
           <li><a href="consoles.html">Consoles</a></li>
           <li><a href="peripherals.html">Peripherals</a></li>
           <li><a href="About-Us.html">About Us</a></li>
-          <li><a href="Faqs-Queries.html">FAQ</a></li>
+          <li><a href="Faqs-queries.html">FAQ</a></li>
         </ul>
       </nav>
     </header>
 
-    <!-- Main Content -->
-    <main>
-      <!-- Games Section -->
-      <section class="games-section">
-        <h1>Games</h1>
-
-        <!-- Popular Games -->
-        <div class="games-category">
-          <h2>Popular</h2>
-          <div class="game-row">
-            <div class="game-card">
-              <img
-                class="game-card-images"
-                src="https://w0.peakpx.com/wallpaper/196/975/HD-wallpaper-gta-v.jpg"
-                alt="Popular Game 1"
-              />
-              <div class="game-price">LKR 6,500</div>
-            </div>
-            <div class="game-card">
-              <img
-                class="game-card-images"
-                src="https://w0.peakpx.com/wallpaper/152/157/HD-wallpaper-uncharted-4-a-thiefs-end-games.jpg"
-                alt="Popular Game 2"
-              />
-              <div class="game-price">LKR 13,000</div>
-            </div>
-            <div class="game-card">
-              <img
-                class="game-card-images"
-                src="https://preview.redd.it/god-of-war-ragnarok-phone-wallpaper-i-made-v0-6b8nz7dxo2191.jpg?width=640&crop=smart&auto=webp&s=2437386639b223c06d6f30c785d963b6dba7019d"
-                alt="Popular Game 3"
-              />
-              <div class="game-price">LKR 4,500</div>
-            </div>
+    <!-- Flash Deals Section -->
+    <section class="flash-deals">
+      <h2>Flash Deals</h2>
+      <div class="product-container">
+        <div class="game-card">
+          <img 
+            src="https://w0.peakpx.com/wallpaper/196/975/HD-wallpaper-gta-v.jpg
+            " 
+            alt="Game Box Art" />
+          <div class="game-hover-overlay">
+            <h3>Grand Theft Auto V (GTA V)</h3>
+            <p>Price: LKR 13,500</p>
+            <p>It's open-world action-adventure game where players control three criminals in the fictional city of Los Santos.
+               It features a vast world, thrilling missions, and an engaging storyline filled with action and heists.</p>
+          </div>
+        </div>
+        <div class="game-card">
+          <img 
+            src="https://wallpapers.com/images/featured/uncharted-y5wt54otbfmw8wxy.jpg" 
+            alt="Game" />
+          <div class="game-hover-overlay">
+            <h3>Uncharted 4: A Thief's End</h3>
+            <p>Price: LKR 10,000</p>
+            <p> follows Nathan Drake as he embarks on one final adventure to find a lost pirate treasure while facing his past.</p>
+          </div>
+        </div>
+        <div class="game-card">
+          <img 
+            src="https://images2.alphacoders.com/137/1370582.jpeg" 
+            alt="Game" />
+          <div class="game-hover-overlay">
+            <h3>God of War</h3>
+            <p>Price: LKR 12,888</p>
+            <p>follows Kratos and his son Atreus on a journey through Norse mythology,
+              battling gods and monsters while uncovering the truth about their past.</p>
+          </div>
+        </div>
+        <div class="game-card">
+          <img 
+            src="https://c4.wallpaperflare.com/wallpaper/1/398/339/elden-ring-landscape-game-art-video-game-art-video-games-hd-wallpaper-preview.jpg" 
+            alt="Game" />
+          <div class="game-hover-overlay">
+            <h3>Elden Ring</h3>
+            <p>Price: LKR 11,999</p>
+            <p>It's an open-world action RPG set in a dark fantasy universe, where players explore vast landscapes, battle formidable foes, 
+              and uncover the secrets of the mysterious Elden Ring.</p>
+          </div>
+        </div>
+        <div class="game-card">
+          <img 
+            src="https://img.goodfon.com/wallpaper/big/0/a1/red-dead-redemption-2-red-dead-artur-morgan-arthur-morgan-ar.webp
+            " 
+            alt="Game" />
+          <div class="game-hover-overlay">
+            <h3>Red Dead Redemption 2</h3>
+            <p>Price: LKR 12,888</p>
+            <p>It's an action-adventure set in the Wild West, where players control Arthur Morgan, an outlaw facing crime, survival, 
+              and betrayal during the frontier's final days.</p>
           </div>
         </div>
 
-        <!-- Recommended Games -->
-        <div class="games-category">
-          <h2>Recommended</h2>
-          <div class="game-row">
-            <div class="game-card">
-              <img
-                class="game-card-images"
-                src="https://i.pinimg.com/736x/56/2e/31/562e311c3db929a33e6919832120b6c7.jpg"
-                alt="Recommended Game 1"
-              />
-              <div class="game-price">LKR 13,500</div>
-            </div>
-            <div class="game-card">
-              <img
-                class="game-card-images"
-                src="https://i.pinimg.com/736x/d1/06/b9/d106b91f8ddb0e75f574fa2a10e82b3e.jpg"
-                alt="Recommended Game 2"
-              />
-              <div class="game-price">LKR 8,000</div>
-            </div>
-            <div class="game-card">
-              <img
-                class="game-card-images"
-                src="https://wallpapers.com/images/hd/pixel-3-the-witcher-3-background-pz90qcta3pphafth.jpg"
-                alt="Recommended Game 3"
-              />
-              <div class="game-price">LKR 6,000</div>
-            </div>
+        <div class="game-card">
+          <img 
+            src="
+            https://4kwallpapers.com/images/wallpapers/the-witcher-3-wild-2560x1440-14031.jpg" 
+            alt="Game" />
+          <div class="game-hover-overlay">
+            <h3>The Witcher 3: Wild Hunt</h3>
+            <p>Price: LKR 12,888</p>
+            <p>It's an open-world RPG where players control Geralt of Rivia, a monster hunter, on a quest to find his adopted daughter. 
+              Set in a rich, detailed world filled with monsters, magic, and political intrigue.</p>
           </div>
         </div>
 
-        <!-- Latest Products -->
-        <div class="games-category">
-          <h2>Latest Products</h2>
-          <div class="game-row">
-            <div class="game-card">
-              <img
-                class="game-card-images"
-                src="https://preview.redd.it/i-made-an-assassins-creed-mirage-wallpaper-from-a-screen-v0-3fixi5bf01tb1.jpg?width=1080&crop=smart&auto=webp&s=9c0cdc2c3859b46c932586fc3c2ffbb44a46df6a"
-                alt="Latest Product 1"
-              />
-              <div class="game-price">LKR 15,000</div>
-            </div>
-            <div class="game-card">
-              <img
-                class="game-card-images"
-                src="https://wallpapers.com/images/featured/cool-call-of-duty-modern-warfare-iphone-eruqv91hd1xd40co.jpg"
-                alt="Latest Product 2"
-              />
-              <div class="game-price">LKR 17,000</div>
-            </div>
-            <div class="game-card">
-              <img
-                class="game-card-images"
-                src="https://i.pinimg.com/originals/e0/b2/ac/e0b2ac3255285b56d44bbf2f58dad2fb.jpg"
-                alt="Latest Product 3"
-              />
-              <div class="game-price">LKR 14,500</div>
-            </div>
+        <div class="game-card">
+          <img 
+            src="
+            https://images.wallpapersden.com/image/download/assassins-creed-mirage-4k-gaming-poster-2023_bmZsZmeUmZqaraWkpJRqZmdlrWdtbWU.jpg" 
+            alt="Game" />
+          <div class="game-hover-overlay">
+            <h3>Assassin's Creed Mirage</h3>
+            <p>Price: LKR 12,888</p>
+            <p>Takes players to 9th-century Baghdad, where they follow Basim, 
+              a skilled thief who joins the Assassin Brotherhood. It combines stealth, parkour, and combat in a vibrant, historical setting.</p>
           </div>
         </div>
-      </section>
-    </main>
 
-    <!-- Footer -->
+        <div class="game-card">
+          <img 
+            src="
+            https://i.ytimg.com/vi/CVdhNjTP5uU/maxresdefault.jpg" 
+            alt="Game" />
+          <div class="game-hover-overlay">
+            <h3>Spider-Man 2</h3>
+            <p>Price: LKR 12,888</p>
+            <p>Lets you play as Peter Parker and Miles Morales, swinging through New York to face new threats in an action-packed adventure.</p>
+          </div>
+        </div>
+
+        <div class="game-card">
+          <img 
+            src="
+            https://w0.peakpx.com/wallpaper/105/594/HD-wallpaper-video-game-minecraft.jpg" 
+            alt="Game" />
+          <div class="game-hover-overlay">
+            <h3>Minecraft</h3>
+            <p>Price: LKR 12,888</p>
+            <p>Is a sandbox game where you can build, explore, and survive in a blocky, procedurally generated world.</p>
+          </div>
+        </div>
+
+        <div class="game-card">
+          <img 
+            src="
+            https://assets.goal.com/images/v3/bltc0075187372c2570/GOAL_-_Blank_WEB_-_Facebook_(53).jpg?auto=webp&format=pjpg&width=3840&quality=60" 
+            alt="Game" />
+          <div class="game-hover-overlay">
+            <h3>FC 24</h3>
+            <p>Price: LKR 12,888</p>
+            <p>Is a football simulation game featuring realistic gameplay, new mechanics, 
+              and a wide array of teams and leagues for players to manage and compete in.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
     <footer>
       <div class="footer-container">
         <p>&copy; 2024 GameStore. All rights reserved.</p>
